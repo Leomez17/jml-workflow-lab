@@ -1,0 +1,4 @@
+event_id,reason
+EV04,Duplicate joiner: E1022 already has an account
+EV09,Leaver for an employee with no account
+EV10,Mover to a job with no role defined

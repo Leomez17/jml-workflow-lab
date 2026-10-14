@@ -1,0 +1,13 @@
+event_id,effective_date,event_type,emp_id,first_name,last_name,department,job_title,employment_type,end_date
+EV01,2026-10-01,joiner,E1021,Amira,Hassan,Clinical,Staff Nurse,Employee,
+EV02,2026-10-01,joiner,E1022,Tom,Price,Finance,Accounts Payable Officer,Employee,
+EV03,2026-10-02,joiner,E1023,Priya,Shah,Clinical,Staff Nurse,Employee,
+EV04,2026-10-03,joiner,E1022,Tom,Price,Finance,Accounts Payable Officer,Employee,
+EV05,2026-10-05,mover,E1006,Daniel,Kim,HR,HR Advisor,Employee,
+EV06,2026-10-05,mover,E1013,Laura,Chen,Finance,Accounts Payable Supervisor,Employee,
+EV07,2026-10-08,leaver,E1008,James,Turner,,,Employee,2026-10-08
+EV08,2026-10-09,joiner,E1024,Ryan,Patel,IT,Service Desk Analyst,Contractor,2026-12-31
+EV09,2026-10-10,leaver,E1999,Alex,Morgan,,,Employee,2026-10-10
+EV10,2026-10-10,mover,E1003,Hannah,Lewis,IT,Cloud Architect,Employee,
+EV11,2026-10-11,leaver,E1001,Priya,Shah,,,Employee,2026-10-11
+EV12,2026-10-31,leaver,E1005,Grace,Bennett,,,Employee,2026-10-31

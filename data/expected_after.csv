@@ -1,0 +1,11 @@
+account,emp_id,name,department,job_title,account_type,enabled,expires,entitlements
+amira.hassan,E1021,Amira Hassan,Clinical,Staff Nurse,user,yes,,CareRecord EPR|Staff Nurse;Entra ID|GRP-Clinical-Users;Microsoft 365|Mailbox and Teams
+daniel.kim,E1006,Daniel Kim,HR,HR Advisor,user,yes,,Entra ID|GRP-HR-Users;HRConnect|HR Advisor;Microsoft 365|Mailbox and Teams
+grace.bennett,E1005,Grace Bennett,Clinical,Staff Nurse,user,yes,,CareRecord EPR|Staff Nurse;Entra ID|GRP-Clinical-Users;Microsoft 365|Mailbox and Teams
+hannah.lewis,E1003,Hannah Lewis,IT,Service Desk Analyst,user,yes,,Active Directory|Delegated password reset (staff OUs);Entra ID|GRP-IT-Staff;Microsoft 365|Mailbox and Teams
+james.turner,E1008,James Turner,Finance,Accounts Payable Officer,user,no,,
+laura.chen,E1013,Laura Chen,Finance,Accounts Payable Supervisor,user,yes,,Entra ID|GRP-Finance-Users;FinanceHub|Approve payments;Microsoft 365|Mailbox and Teams
+priya.shah,E1001,Priya Shah,Finance,Accounts Payable Officer,user,no,,
+priya.shah2,E1023,Priya Shah,Clinical,Staff Nurse,user,yes,,CareRecord EPR|Staff Nurse;Entra ID|GRP-Clinical-Users;Microsoft 365|Mailbox and Teams
+ryan.patel.ext,E1024,Ryan Patel,IT,Service Desk Analyst,guest,yes,2026-12-31,Active Directory|Delegated password reset (staff OUs);Entra ID|GRP-IT-Staff;Microsoft 365|Mailbox and Teams
+tom.price,E1022,Tom Price,Finance,Accounts Payable Officer,user,yes,,Entra ID|GRP-Finance-Users;FinanceHub|Accounts payable processing;Microsoft 365|Mailbox and Teams

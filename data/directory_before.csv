@@ -1,0 +1,7 @@
+account,emp_id,name,department,job_title,account_type,enabled,expires,entitlements
+daniel.kim,E1006,Daniel Kim,Clinical,Clinical Coder,user,yes,,CareRecord EPR|Clinical Coder (full patient record read);Entra ID|GRP-Clinical-Users;Microsoft 365|Mailbox and Teams
+grace.bennett,E1005,Grace Bennett,Clinical,Staff Nurse,user,yes,,CareRecord EPR|Staff Nurse;Entra ID|GRP-Clinical-Users;Microsoft 365|Mailbox and Teams
+hannah.lewis,E1003,Hannah Lewis,IT,Service Desk Analyst,user,yes,,Active Directory|Delegated password reset (staff OUs);Entra ID|GRP-IT-Staff;Microsoft 365|Mailbox and Teams
+james.turner,E1008,James Turner,Finance,Accounts Payable Officer,user,yes,,Entra ID|GRP-Finance-Users;FinanceHub|Accounts payable processing;Microsoft 365|Mailbox and Teams
+laura.chen,E1013,Laura Chen,Procurement,Procurement Officer,user,yes,,Entra ID|GRP-Procurement-Users;FinanceHub|Supplier maintenance (create and amend suppliers);Microsoft 365|Mailbox and Teams
+priya.shah,E1001,Priya Shah,Finance,Accounts Payable Officer,user,yes,,Entra ID|GRP-Finance-Users;FinanceHub|Accounts payable processing;Microsoft 365|Mailbox and Teams

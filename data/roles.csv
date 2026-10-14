@@ -1,0 +1,16 @@
+department,job_title,entitlement
+*,*,Microsoft 365|Mailbox and Teams
+Finance,Accounts Payable Officer,FinanceHub|Accounts payable processing
+Finance,Accounts Payable Officer,Entra ID|GRP-Finance-Users
+Finance,Accounts Payable Supervisor,FinanceHub|Approve payments
+Finance,Accounts Payable Supervisor,Entra ID|GRP-Finance-Users
+Procurement,Procurement Officer,FinanceHub|Supplier maintenance (create and amend suppliers)
+Procurement,Procurement Officer,Entra ID|GRP-Procurement-Users
+Clinical,Staff Nurse,CareRecord EPR|Staff Nurse
+Clinical,Staff Nurse,Entra ID|GRP-Clinical-Users
+Clinical,Clinical Coder,CareRecord EPR|Clinical Coder (full patient record read)
+Clinical,Clinical Coder,Entra ID|GRP-Clinical-Users
+HR,HR Advisor,HRConnect|HR Advisor
+HR,HR Advisor,Entra ID|GRP-HR-Users
+IT,Service Desk Analyst,Active Directory|Delegated password reset (staff OUs)
+IT,Service Desk Analyst,Entra ID|GRP-IT-Staff
