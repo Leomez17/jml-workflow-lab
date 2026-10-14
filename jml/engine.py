@@ -58,7 +58,15 @@ def make_username(directory: Directory, first: str, last: str, employment_type: 
     Hint: directory.exists(username) tells you if a name is taken. A while
     loop keeps trying the next number until it finds a free one.
     """
-    raise NotImplementedError("TODO: exercise 1")
+    base = f"{first}.{last}".lower()
+    if employment_type == "Contractor":
+        base += ".ext"
+    username = base
+    n = 2
+    while directory.exists(username):
+        username = f"{base}{n}"
+        n += 1
+    return username
 
 
 # --- Exercise 2 -------------------------------------------------------------
