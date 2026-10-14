@@ -94,7 +94,17 @@ def handle_mover(directory: Directory, roles: dict, ev: dict) -> None:
     maths: current - target are to revoke, target - current are to grant.
     Finish with directory.update_job.
     """
-    raise NotImplementedError("TODO: exercise 3")
+    acc = find_account(directory, ev["emp_id"])
+    target = entitlements_for(roles, ev["department"], ev["job_title"])
+    if target is None:
+        raise JMLException(f"No role defined for {ev['department']} / {ev['job_title']}")
+
+    current = set(acc.entitlements)
+    for entitlement in sorted(current - target):
+        directory.revoke(acc, entitlement, ev["event_id"])
+    for entitlement in sorted(target - current):
+        directory.grant(acc, entitlement, ev["event_id"])
+    directory.update_job(acc, ev["department"], ev["job_title"], ev["event_id"])
 
 
 # --- The workflow -----------------------------------------------------------
