@@ -78,7 +78,10 @@ def handle_leaver(directory: Directory, roles: dict, ev: dict) -> None:
     is none), loop over sorted(acc.entitlements) calling directory.revoke, then
     call directory.disable. Use ev["event_id"] for the audit log.
     """
-    raise NotImplementedError("TODO: exercise 2")
+    acc = find_account(directory, ev["emp_id"])
+    for entitlement in sorted(acc.entitlements):
+        directory.revoke(acc, entitlement, ev["event_id"])
+    directory.disable(acc, ev["event_id"])
 
 
 # --- Exercise 3 -------------------------------------------------------------
